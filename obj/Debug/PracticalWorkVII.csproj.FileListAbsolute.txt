@@ -1,0 +1,8 @@
+C:\Users\Даниил Селезнев\source\repos\PracticalWorkVII\bin\Debug\PracticalWorkVII.exe.config
+C:\Users\Даниил Селезнев\source\repos\PracticalWorkVII\bin\Debug\PracticalWorkVII.exe
+C:\Users\Даниил Селезнев\source\repos\PracticalWorkVII\bin\Debug\PracticalWorkVII.pdb
+C:\Users\Даниил Селезнев\source\repos\PracticalWorkVII\obj\Debug\PracticalWorkVII.csproj.AssemblyReference.cache
+C:\Users\Даниил Селезнев\source\repos\PracticalWorkVII\obj\Debug\PracticalWorkVII.csproj.SuggestedBindingRedirects.cache
+C:\Users\Даниил Селезнев\source\repos\PracticalWorkVII\obj\Debug\PracticalWorkVII.csproj.CoreCompileInputs.cache
+C:\Users\Даниил Селезнев\source\repos\PracticalWorkVII\obj\Debug\PracticalWorkVII.exe
+C:\Users\Даниил Селезнев\source\repos\PracticalWorkVII\obj\Debug\PracticalWorkVII.pdb
