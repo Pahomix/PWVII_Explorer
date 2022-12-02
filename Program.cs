@@ -15,14 +15,15 @@ namespace PracticalWorkVII
             //drives.Drives();
             Greetings();
             Explorer.Drives();
-            Strelka strelka = new Strelka();
-            strelka.ChangePosition(3, 9);
+
+            //Strelka strelka = new Strelka();
+            //strelka.ChangePosition(3, 5);
         }
 
         public static void Greetings()
         {
             Console.SetCursorPosition(50, 0);
-            Console.WriteLine("Этот компьютер");
+            Console.WriteLine(Explorer.path);
             for (int i = 0; i < 120; i++) Console.Write("-");
             Console.WriteLine();
         }
