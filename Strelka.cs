@@ -123,23 +123,32 @@ namespace PracticalWorkVII
                         }
                         break;
                         case ConsoleKey.Escape:
-                            Console.Clear();
-                            Program.Greetings();
-                            Explorer.path = " ";
-                            Explorer.Drives();
-                            selected = -1; 
+                        //if (Explorer.path.Length > 2)
+                        //{
+                        //    Explorer.Catalogs(cutLast(Path.GetFullPath(Explorer.path)));
+                        //}
+                        //else
+                        //{
+                        //    Console.Clear();
+                        //    Explorer.path = " ";
+                        //    Explorer.Drives();
+                        //}
+                        Console.Clear();
+                        Program.Greetings();
+                        Explorer.path = " ";
+                        Explorer.Drives();
+                        selected = -1;
                         break;
                 }
             }
         }
-        
-        //public static string cutLast(string v)
+
+        //public string cutLast(string v)
         //{
+        //    selected = -1;
         //    int i = v.Length - 1;
-        //    while (v[i] != '\\')
-        //        i--;
-        //    if (i > 0)
-        //        return v.Substring(0, i);
+        //    while (v[i] != '\\') i--;
+        //    if (i > 0) return v.Substring(0, i + 1);
         //    return v;
         //}
     }
