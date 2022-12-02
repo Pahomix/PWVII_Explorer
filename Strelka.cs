@@ -108,9 +108,9 @@ namespace PracticalWorkVII
                         //}
                         try
                         {
-                            oldsel = selected;
                             Explorer.path += "\\" + Explorer.dirs[selected];
                             Explorer.Catalogs(Explorer.path);
+                            oldsel = selected;
                             selected = -1;
 
                         }
@@ -119,21 +119,15 @@ namespace PracticalWorkVII
                             Explorer.path += "\\" + Explorer.files[oldsel];
                             string path = Path.GetFullPath(Explorer.path);
                             Process.Start(new ProcessStartInfo { FileName = path, UseShellExecute = true });
+                            oldsel = -1;
                         }
                         break;
                         case ConsoleKey.Escape:
-                            if (Directory.Exists(Explorer.path))
-                            {
-
-                            //Explorer.Catalogs(Explorer.path.Remove(Explorer.dirs[selected], Explorer.dirs[oldsel]));
-                            selected = -1;
-                            }
-                            else
-                            {
-                                Console.Clear();
-                                Explorer.Catalogs(" ");
-                                selected = -1;
-                            }
+                            Console.Clear();
+                            Program.Greetings();
+                            Explorer.path = " ";
+                            Explorer.Drives();
+                            selected = -1; 
                         break;
                 }
             }
